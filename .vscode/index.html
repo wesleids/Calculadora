@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="calculator">
+        <div id="display"></div>
+        <div class="keys">
+            <button id="icon">★</button>
+            <button id="number" onclick="clean()">AC</button>
+            <button id="number" onclick="back('⌫')">⌫</button>
+            <button id="number" onclick="insert('/')">/</button>
+            <button id="number" onclick="insert('7')">7</button>
+            <button id="number" onclick="insert('8')">8</button>
+            <button id="number" onclick="insert('9')">9</button>
+            <button id="number" onclick="insert('*')">x</button>
+            <button id="number" onclick="insert('4')">4</button>
+            <button id="number" onclick="insert('5')">5</button>
+            <button id="number" onclick="insert('6')">6</button>
+            <button id="number" onclick="insert('-')">-</button>
+            <button id="number" onclick="insert('1')">1</button>
+            <button id="number" onclick="insert('2')">2</button>
+            <button id="number" onclick="insert('3')">3</button>
+            <button id="number" class="key-equal" onclick="calcular('')">=</button>
+            <button id="number" onclick="insert('+')">+</button>
+            <button id="number" onclick="insert('.')">.</button>
+            <button id="number" onclick="insert('0')">0</button>
+        </div>
+        <h6 id="text">Powered By Weslei Silva</h6>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
